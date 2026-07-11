@@ -26,7 +26,7 @@ The finishing stages for AI video: take clips (from `higgsfield-generate` or any
 ## Prerequisites
 
 1. `ffmpeg` and `ffprobe` on `$PATH` ([ffmpeg.org](https://ffmpeg.org)).
-2. For Stage 3 (matched soundtrack): the Sonilo MCP server registered with the user's own API key from [sonilo.com](https://sonilo.com) — e.g. `claude mcp add sonilo --env SONILO_API_KEY=sk-... -- uvx sonilo-mcp`. The key is always user-supplied; never bundle, hardcode, or echo it. Platforms can use the Sonilo REST API instead (docs at sonilo.com). Stages 1–2 and 4 need no key.
+2. For Stage 3 (matched soundtrack): the Sonilo MCP server registered with the user's own API key from [sonilo.com](https://sonilo.com/?utm_source=github&utm_medium=oss&utm_campaign=higgsfield-trailer-skill) — e.g. `claude mcp add sonilo --env SONILO_API_KEY=sk-... -- uvx sonilo-mcp`. The key is always user-supplied; never bundle, hardcode, or echo it. Platforms can use the Sonilo REST API instead (docs at sonilo.com). Stages 1–2 and 4 need no key.
 3. The `higgsfield` CLI only if clips still need generating or fetching — see `higgsfield-generate` for bootstrap and auth.
 
 ## UX Rules
